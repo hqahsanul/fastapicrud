@@ -1,0 +1,24 @@
+# Ignore Python bytecode files and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env/
+.env
+
+# Ignore IDE and editor settings (Optional)
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+
+# Ignore pytest and other test-related outputs
+*.cover
+coverage.xml
+nosetests.xml
+*.hypothesis/
+.tox/
